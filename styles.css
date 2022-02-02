@@ -39,7 +39,7 @@ body {
       rgba(230, 125, 34, 0.35)
     ),
     url("android.png");
-  background-size: cover;
+  background-size: 896px 963px;
   width: 56rem;
   margin: 1rem;
 }
