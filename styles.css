@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.chatbot {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.chatbot-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.chatbot .heading {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.messagebox {
+  height: 37.6rem;
+  width: 50rem;
+  border-radius: 9px;
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.144);
+}
+
+.chatbot-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("android.png");
+  background-size: cover;
+  width: 56rem;
+  margin: 1rem;
+}
+
+.chatbot-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.chatbot-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.chatbot-form input,
+.chatbot-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.144);
+}
+
+.chatbot-form input::placeholder {
+  color: #aaa;
+}
+
+.chatbot *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
