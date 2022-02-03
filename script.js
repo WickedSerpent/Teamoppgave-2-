@@ -4,4 +4,5 @@ var input = document.getElementById("userText");
 
 function submitText() {
   input.innerHTML = userInput.value;
+  document.getElementById("your-message").value = "";
 }
