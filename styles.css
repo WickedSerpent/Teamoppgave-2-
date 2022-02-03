@@ -98,13 +98,6 @@ body {
   row-gap: 2.4rem;
 }
 
-.chatbot-form label {
-  display: block;
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 1.2rem;
-}
-
 .chatbot-form input,
 .chatbot-form select {
   width: 100%;
