@@ -1,5 +1,12 @@
-<<<<<<< Updated upstream
-=======
+
+
+
+
+
+
+
+
+
 var userText = document.getElementById(userText);
 var messenge = document.getElementById(your-message);
 var btn = document.getElementById(btnSend);
@@ -97,5 +104,4 @@ function sammenlign(triggerArray, replyArray, userText) {
     }
     return item;
 }
->>>>>>> Stashed changes
 
