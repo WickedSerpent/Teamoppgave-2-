@@ -32,6 +32,55 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.144);
 }
 
+<<<<<<< Updated upstream
+=======
+.chatbot-box {
+  height: 10rem;
+  width: 18rem;
+  margin-top: 2rem;
+  background-color: #3440ee;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(235, 151, 78, 0.35),
+    rgba(230, 125, 34, 0.35)
+  );
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.user-box {
+  height: 10rem;
+  width: 18rem;
+  margin-top: 26rem;
+  background-color: #3440ee;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(235, 151, 78, 0.35),
+    rgba(230, 125, 34, 0.35)
+  );
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.user-text {
+  color: #fff;
+  line-height: 1.3rem;
+  padding: 1rem;
+}
+
+.user-text-style {
+  height: 12rem;
+  width: 13rem;
+  margin-left: 4.6rem;
+  margin-top: 3rem;
+}
+
+.chatbot-text-style {
+  height: 12rem;
+  width: 13rem;
+  margin-right: 4.6rem;
+  margin-top: 3rem;
+}
+
+>>>>>>> Stashed changes
 .chatbot-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -104,3 +153,12 @@ body {
   background-color: #fff;
   color: #555;
 }
+<<<<<<< Updated upstream
+=======
+
+#your-message {
+  margin-top: 1.2rem;
+  background-color: #dee2e6;
+}
+
+>>>>>>> Stashed changes

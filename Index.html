@@ -13,7 +13,7 @@
         <h2 class="heading">Chatbot</h2>
         <div class="messagebox"></div>
 
-        <form class="chatbot-form" action="#">
+        <form class="chatbot-form">
           <div>
             <label for="your-message"></label>
             <input
@@ -21,10 +21,12 @@
               type="text"
               placeholder="Your message"
               required
+              autocomplete="off"
+              autofocus="true"
             />
           </div>
 
-          <button id="btn--send" class="btn btn--form">Send</button>
+          <button id="btnSend" class="btn btn--form">Send</button>
         </form>
       </div>
       <div class="chatbot-img-box" role="img"></div>
