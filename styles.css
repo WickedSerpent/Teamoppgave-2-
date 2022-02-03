@@ -34,7 +34,7 @@ body {
 }
 
 .chatbot-box {
-  height: 18rem;
+  height: 10rem;
   width: 18rem;
   margin-top: 2rem;
   background-color: #3440ee;
@@ -47,9 +47,9 @@ body {
 }
 
 .user-box {
-  height: 18rem;
+  height: 10rem;
   width: 18rem;
-  margin-top: 18rem;
+  margin-top: 26rem;
   background-color: #3440ee;
   background-image: linear-gradient(
     to right bottom,
@@ -61,7 +61,7 @@ body {
 
 .user-text {
   color: #fff;
-  line-height: 1.3rem;
+  line-height: 1.6rem;
   padding: 1rem;
 }
 

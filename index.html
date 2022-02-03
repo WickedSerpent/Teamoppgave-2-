@@ -14,36 +14,28 @@
         <div class="messagebox">
           <div class="user-box">
             <div class="user-text-style">
-              <p class="user-text" id="userText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia id voluptas natus consequuntur, atque officiis error
-                blanditiis nostrum repudiandae eum minima.
-              </p>
+              <p class="user-text" id="userText"></p>
             </div>
           </div>
           <div class="chatbot-box">
             <div class="chatbot-text-style">
-              <p class="user-text" id="chatbotText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia id voluptas natus consequuntur, atque officiis error
-                blanditiis nostrum repudiandae eum minima.
-              </p>
+              <p class="user-text" id="chatbotText"></p>
             </div>
           </div>
         </div>
 
-        <form class="chatbot-form" action="#">
+        <div class="chatbot-form">
           <div>
             <input
               id="your-message"
               type="text"
               placeholder="Your message"
-              required
+              autocomplete="off"
             />
           </div>
 
-          <button id="btn--send" class="btn btn--form">Send</button>
-        </form>
+          <button class="btn btn--form" onclick="submitText()">Send</button>
+        </div>
       </div>
       <div class="chatbot-img-box" role="img"></div>
     </div>
