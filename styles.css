@@ -61,6 +61,7 @@ body {
 
 .user-text {
   color: #fff;
+  text-align: center;
   line-height: 1.6rem;
   padding: 1rem;
 }
